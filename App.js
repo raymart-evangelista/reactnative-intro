@@ -24,10 +24,9 @@ export default function App() {
           style={{width: 200, height: 200}}
         />
       </View>
-      <Cat/>
-      <Cat/>
-      <Cat/>
-      <Cat/>
+      <Cat name="Maruu" />
+      <Cat name="Jellylorum" />
+      <Cat name="Spot" />
       <TextInput 
         style={{
           height: 40,
