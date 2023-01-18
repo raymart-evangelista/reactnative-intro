@@ -25,6 +25,9 @@ export default function App() {
         />
       </View>
       <Cat/>
+      <Cat/>
+      <Cat/>
+      <Cat/>
       <TextInput 
         style={{
           height: 40,

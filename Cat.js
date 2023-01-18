@@ -1,5 +1,5 @@
 import React from "react";
-import { Text } from "react-native";
+import { Text, TextInput, View } from "react-native";
 
 const getFullName = (firstName, secondName, thirdName) => {
   return firstName + ' ' + secondName + ' ' + thirdName;
@@ -8,7 +8,18 @@ const getFullName = (firstName, secondName, thirdName) => {
 const Cat = () => {
   const name = 'Maru'
   return (
-    <Text>Hello, I'm a cat named {name}. My full name is {getFullName('Rum', 'Tum', 'Tugger')}!</Text>
+    // <Text>Hello, I'm a cat named {name}. My full name is {getFullName('Rum', 'Tum', 'Tugger')}!</Text>
+    <View>
+      <Text>Hello, I am...</Text>
+      <TextInput
+        style={{
+          height: 40,
+          borderColor: 'gray',
+          borderWidth: 1,
+        }}
+        defaultValue="Name me!"
+      />
+    </View>
   )
 }
 
