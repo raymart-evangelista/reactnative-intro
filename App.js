@@ -15,7 +15,9 @@ export default function App() {
       <StatusBar style="auto" />
     </View>
     <HelloWorldApp></HelloWorldApp> */}
-    <ScrollView>
+
+
+    {/* <ScrollView>
       <Text>Some Text</Text>
       <View>
         <Text>Some more text</Text>
@@ -39,6 +41,35 @@ export default function App() {
         }}
         defaultValue='Type in here'
       />
+    </ScrollView> */}
+
+    {/* setting pagingEnabled to true will make the scrollview stop at certain points */}
+    <ScrollView pagingEnabled={false}>
+      <View>
+        <Text style={{fontSize: 96}}>
+          I got my eyes on you;
+          You're everything that I see;
+          I want your hot love and emotion endlessly
+        </Text>
+      </View>
+      <Text>&&&&&&&&&&&</Text>
+      <View>
+        <Text style={{fontSize: 96}}>
+          'Cause you're a good girl and you know it; 
+          You act so different around me; 
+          'Cause you're a good girl and you know it; 
+          I know exactly who you could be
+        </Text>
+      </View>
+      <Text>&&&&&&&&&&&</Text>
+      <View>
+        <Text style={{fontSize: 96}}>
+          Just hold on we're going home;
+          Just hold on we're going home;
+          It's hard to do these things alone;
+          Just hold on we're going home
+        </Text>
+      </View>
     </ScrollView>
 
     </>
