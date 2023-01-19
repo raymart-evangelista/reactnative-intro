@@ -2,6 +2,8 @@ import { StatusBar } from 'expo-status-bar';
 import { Image, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import Cat from './Cat';
 import HelloWorldApp from './HelloWorldApp';
+import Cafe from './Cat2';
+import Workout from './Workout';
 
 export default function App() {
   return (
@@ -24,6 +26,8 @@ export default function App() {
           style={{width: 200, height: 200}}
         />
       </View>
+      <Workout />
+      <Cafe />
       <Cat name="Maruu" />
       <Cat name="Jellylorum" />
       <Cat name="Spot" />
