@@ -44,7 +44,7 @@ export default function App() {
     </ScrollView> */}
 
     {/* setting pagingEnabled to true will make the scrollview stop at certain points */}
-    <ScrollView pagingEnabled={false}>
+    <ScrollView pagingEnabled={false} maximumZoomScale={2.0} minimumZoomScale={1.0}>
       <View>
         <Text style={{fontSize: 96}}>
           I got my eyes on you;
@@ -52,7 +52,6 @@ export default function App() {
           I want your hot love and emotion endlessly
         </Text>
       </View>
-      <Text>&&&&&&&&&&&</Text>
       <View>
         <Text style={{fontSize: 96}}>
           'Cause you're a good girl and you know it; 
@@ -61,7 +60,6 @@ export default function App() {
           I know exactly who you could be
         </Text>
       </View>
-      <Text>&&&&&&&&&&&</Text>
       <View>
         <Text style={{fontSize: 96}}>
           Just hold on we're going home;
