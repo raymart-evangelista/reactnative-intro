@@ -4,6 +4,7 @@ import Cat from './Cat';
 import HelloWorldApp from './HelloWorldApp';
 import Cafe from './Cat2';
 import Workout from './Workout';
+import FlatListBasics from './Flatlist';
 
 export default function App() {
   return (
@@ -44,7 +45,7 @@ export default function App() {
     </ScrollView> */}
 
     {/* setting pagingEnabled to true will make the scrollview stop at certain points */}
-    <ScrollView pagingEnabled={false} maximumZoomScale={2.0} minimumZoomScale={1.0}>
+    {/* <ScrollView pagingEnabled={false} maximumZoomScale={2.0} minimumZoomScale={1.0}>
       <View>
         <Text style={{fontSize: 96}}>
           I got my eyes on you;
@@ -68,8 +69,8 @@ export default function App() {
           Just hold on we're going home
         </Text>
       </View>
-    </ScrollView>
-
+    </ScrollView> */}
+    <FlatListBasics />
     </>
   );
 }
