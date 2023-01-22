@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import { Image, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { Image, ScrollView, SectionList, StyleSheet, Text, TextInput, View } from 'react-native';
 import Cat from './Cat';
 import HelloWorldApp from './HelloWorldApp';
 import Cafe from './Cat2';
 import Workout from './Workout';
 import FlatListBasics from './Flatlist';
+import SectionListBasics from './SectionList';
 
 export default function App() {
   return (
@@ -71,6 +72,7 @@ export default function App() {
       </View>
     </ScrollView> */}
     <FlatListBasics />
+    <SectionListBasics />
     </>
   );
 }
